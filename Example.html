@@ -1,0 +1,310 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="Example.css">
+    <!--Escober, Karlo-->
+    <!--4.24.2024-->
+    <h1 style="text-align: center; color: rgb(110, 0, 254);">BORGER NI DIWATA</h1>
+    <div class="container">
+        <div class="center">
+            <form action="">
+                <h1 style="text-align: center;">CUSTOMER INFORMATION</h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+                <label for="fullname"><b> Customer FullName:</b>&nbsp;&nbsp;</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br><br>
+                <img src="TIKIM TV.jpg" alt="">
+                
+                <label for="address"><b>Customer Address:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="text" id="address" name="address" placeholder="Complete Address" required><br><br>
+                
+                <label for="contact"><b>Contact Number:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="tel" id="contact" name="contact" placeholder="0909-090-0909" required><br><br>
+                
+                <label for="email"><b>Email Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="email" id="email" name="email" placeholder="Escober.karlo@gmail.com" required><br><br>
+                
+                <label for="description"><b>Description of how to get to the place:</b></label><br>
+                <textarea id="description" name="description" rows="9" cols="57" placeholder="Directions to the place" required></textarea><br><br>
+                
+                <label for="schedule"><b>Date/Time of Delivery</b>&nbsp;&nbsp;</label>
+                <input type="datetime-local"  name="" id="Schedule" required><br><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <h1 style="text-align: center;">B-URGERS P-ASTA F-RIES D-RINKS</h1><hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <h2><b>What you Want?</b></h2>
+
+            <div class="Pictures">
+                <figure>
+                    <a href="#Borger">
+                        <img src="burger-removebg-preview.png" alt="">
+                    </a>
+                    <figcaption>Burger</figcaption>
+                </figure>
+            </div>
+
+            <div class="Pasta">
+                <figure>
+                    <a href="#Pasta">
+                        <img src="pasta-removebg-preview.png" alt="">
+                    </a>
+                    <figcaption>Pasta</figcaption>
+                </figure>
+            </div>
+
+            <div class="Fries">
+                <figure>
+                    <a href="#fries">
+                        <img src="fries-removebg-preview.png" alt="">
+                    </a>
+                    <figcaption>Fries</figcaption>
+                </figure>
+            </div>
+
+            <div class="Drinks">
+                <figure>
+                    <a href="#Drinks">
+                        <img src="drinks-removebg-preview.png" alt="">
+                    </a>
+                    <figcaption>Drinks</figcaption>
+                </figure>
+            </div>
+        </form>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="Borger">
+        <div class="container">
+            <form action="">
+                <h1 style="text-align: center;">B-urgers<br></h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+                <h2 style="text-align: center;">Choose Filling</h2>
+
+                <div>
+                    <label for="buns"><b>Choose of Buns:</b></label><br>
+                    <label for="White_Buns"><img src="buns-removebg-preview.png" alt=""></label><br>
+                    <div class="White">
+                        <input type="radio" id="White_Buns" name="buns" value="White_Buns">
+                        <label for="White_Buns">White Buns</label><br>
+                    </div>
+
+                    <label for="Wheat_Buns"><img src="Wheat_Buns-removebg-preview.png" alt=""></label><br>
+                    <div class="Wheat">
+                        <input type="radio" id="Wheat_Buns" name="buns" value="Wheat_Buns">
+                        <label for="Wheat_Buns">Wheat Buns</label><br>
+                    </div>
+                
+
+                    <div class="burgers">
+                        <label for="patty"><b>Choose Patty:</b></label><br>
+                        <label for="single_patty"><img src="single-removebg-preview.png" alt=""></label><br>
+                        <div class="Single">
+                            <input type="radio" id="single_patty" name="burgers" value="single_patty">
+                            <label for="single_patty">Single Patty</label><br>
+                        </div>
+
+                        <label for="double_patty"><img src="double-removebg-preview.png" alt=""></label><br>
+                        <div class="Double">
+                            <input type="radio" id="double_patty" name="burgers" value="double_patty">
+                            <label for="double_patty">Double Patty</label><br>
+                        </div>
+                    </div><br>
+
+                    <div class="Toppings">
+                        <label for="patty"><b>Choose Toppings:</b></label><br>
+                        <label for="Cheese"><img src="cheese-removebg-preview.png" alt=""></label><br>
+                        <div class="cheese">
+                            <input type="checkbox" id="Cheese" name="toppings" value="Cheese">
+                            <label for="Cheese">Cheese</label><br>
+                        </div>
+
+                        <label for="Tomato"><img src="Tomato-removebg-preview.png" alt=""></label><br>
+                        <div class="tomato">
+                            <input type="checkbox" id="Tomato" name="toppings" value="Tomato">
+                            <label for="Tomato">Tomato</label><br><br>
+                        </div>
+
+                        <div class="cucumbers">
+                            <label for="Cucumber"><img src="cucumber-removebg-preview.png" alt=""></label><br>
+                            <div class="cucumber">
+                                <input type="checkbox" id="Cucumber" name="toppings" value="Cucumber">
+                                <label for="Cucumber">Cucumber</label><br>
+                            </div>
+                        </div>
+
+                        <div class="coleslaws">
+                            <label for="Coleslaw"><img src="coleslaw-removebg-preview.png" alt=""></label><br>
+                            <div class="coleslaw">
+                                <input type="checkbox" id="Coleslaw" name="toppings" value="Coleslaw">
+                                <label for="Coleslaw">Coleslaw</label><br>
+                            </div>
+                        </div><br>
+
+                        <label for="Onion"><img src="Onion-removebg-preview.png" alt=""></label><br>
+                        <div class="onion">
+                            <input type="checkbox" id="Onion" name="toppings" value="Onion">
+                            <label for="Onion">Onion</label><br>
+                        </div>
+
+                        <div class="bacons">
+                            <label for="Bacon"><img src="bacon-removebg-preview.png" alt=""></label><br>
+                            <div class="bacon">
+                                <input type="checkbox" id="Bacon" name="toppings" value="Bacon">
+                                <label for="Bacon">Bacon</label><br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <label for="burger_quantity">Burger Quantity:</label>
+                        <input type="number" id="burger_quantity" name="burger_quantity" value="0" min="0"><br><br>
+                    </div><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br><br>
+
+                    <div class="nxt">
+                        <a id="NxtPage" href="#Pasta">Next</a>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>br
+
+    <div class="container" id="Pasta">
+        <form action="">
+            <h1 style="text-align: center;">P-asta<br></h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+
+            <div>
+                <label for="sauce"><b>Choose Sause for Pasta:</b></label><br>
+                <div class="pastas">
+                    <label for="Spaghetti"><img src="spaghetti-removebg-preview (1).png" alt=""></label><br>
+                    <input type="radio" id="Spaghetti" name="sauce" value="Spaghetti">
+                    <label for="Spaghetti">Spagehetti Sause</label><br>
+
+                    <div class="carbownara">
+                        <label for="carbonara"><img src="carbonara-removebg-preview.png" alt=""></label><br>
+                        <input type="radio" id="carbonara" name="sauce" value="carbonara">
+                        <label for="carbonara">Carbonara Sause</label><br>
+                    </div>
+
+                    <div class="pwesto">
+                        <label for="pesto"><img src="pesto-removebg-preview.png" alt=""></label><br>
+                        <input type="radio" id="pesto" name="sauce" value="pesto">
+                        <label for="pesto">Pesto Sause</label><br>
+                    </div>
+                </div>
+                <label for="pasta_quantity">Pasta Quantity:</label>
+                <input type="number" id="pasta_quantity" name="pasta_quantity" value="0" min="0"><br><br>
+            </div><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br><br>
+
+            <div class="nxt">
+                <a id="NxtPage" href="#fries">Next</a>
+            </div>
+
+        </form>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container" id="fries">
+        <form action="">
+            <h1 style="text-align: center;">F-ries<br></h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+
+
+            <label for="fries_size"><b>Fries Size:</b></label>
+            <select id="fries_size" name="fries_size">
+                <option value="O">Select</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+            </select><br>
+        
+        <label for="fries_flavor"><img src="friess-removebg-preview.png" alt=""></label><br>
+        <div class="flavor">
+            <label for="fries_flavor"><b>Fries Flavor:</b></label><br>
+        </div>
+        <div class="flavors">
+            <select name="add" id="add" size="1">
+                <option value="flavor">Flavor</option>
+                <option value="Bbq">Bbq</option>
+                <option value="cheese">Cheese</option>
+                <option value="Sour">Sourcream</option>
+            </select>
+        </div>
+        
+        <label for="fries_quantity"><b>Fries Quantity:</b></label>
+        <input type="number" id="fries_quantity" name="fries_quantity" value="0" min="0"><br><br>
+
+        </form><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br><br>
+
+        <div class="nxt">
+            <a id="NxtPage" href="#Drinks">Next</a>
+        </div>
+
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container" id="Drinks">
+        <form action="">
+            <h1 style="text-align: center;">D-rinks<br></h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+            
+            <label for="Drinks_Size"><b>Drinks Size:</b></label>
+            <select id="Drinks_Size" name="Drinks_Size">
+                <option value="O">Select</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+            </select><br>
+
+            <label for="Drinks"><img src="Drinkss-removebg-preview.png" alt=""></label><br>
+            <div class="drinks">
+                <label for="Drinks"><b>Drinks Choose:</b></label><br>
+            </div>
+
+            <div class="drinkss">
+                <select name="add" id="add" size="1">
+                    <option value="Drinks">Select</option>
+                    <option value="Coke">Coke</option>
+                    <option value="Sprite">Sprite</option>
+                    <option value="Royal">Royal</option>
+                </select>
+            </div>
+
+        <label for="drink_quantity"><b>Drink Quantity:</b></label>
+        <input type="number" id="drink_quantity" name="drink_quantity" value="0" min="0"><br><br>
+        </form><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br><br>
+
+        <div class="nxt">
+            <a id="NxtPage" href="#feedbacks">Next</a>
+        </div>
+
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div class="container" id="feedbacks">
+        <form action="">
+            <h1 style="text-align: center;">Feedback<br></h1><hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+
+            <label for="feedback"><b>How can we improve the ordering form?</b></label><br>
+            <textarea id="feedback" name="feedback" rows="6" cols="107"></textarea><br><br>
+
+            <label for="proof"><b>Upload Proof of Payment:</b></label><br>
+            <input type="file" id="proof" name="proof"><br><br>
+
+            <label for="delivery_rating"><b>Rate our Delivery Service (0-10):</b></label><br>
+            <input type="range" id="delivery_rating" name="delivery_rating" min="0" max="10"><br><br>
+
+            <label for="delivery_option">Delivery or Pick-up:</label><br>
+            <input type="radio" id="delivery" name="delivery_option" value="delivery" checked>
+            <label for="delivery">Delivery</label><br>
+            <input type="radio" id="pickup" name="delivery_option" value="pickup">
+            <label for="pickup">Pick-up</label><br><br>
+
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Clear Form">
+        </form>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+</body>
+</html>

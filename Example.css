@@ -1,0 +1,225 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(439652260_1144669096952195_760926239773934521_n.png);
+}
+
+.container {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(#ffffff, #f7ee96);
+    box-shadow: 5px 8px 100px black;
+    margin-top: 50px;
+}
+
+.center input {
+    width: 261px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.center img {
+    width: 350px;
+    height: 400px;
+    float: right;
+    margin-top: -50px;
+}
+
+.Pictures {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+}
+
+.Pictures:hover {
+    filter: drop-shadow(12px 5px 4px #595959);
+}
+
+.Pictures figcaption {
+    font-size: 18px;
+}
+
+.Pictures img {
+    width: 170px;
+    height: 150px;
+}
+
+.Pasta {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    margin: -207px 0px 0px 200px;
+}
+
+.Pasta:hover {
+    filter: drop-shadow(13px 5px 4px #595959);
+}
+
+.Pasta figcaption {
+    font-size: 18px;
+}
+
+.Pasta img {
+    width: 170px;
+    height: 150px;
+}
+
+.Fries {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    margin: -207px 0px 0px 400px;
+}
+
+.Fries:hover {
+    filter: drop-shadow(13px 5px 4px #595959);
+}
+
+.Fries figcaption {
+    font-size: 18px;
+}
+
+.Fries img {
+    width: 170px;
+    height: 150px;
+}
+
+.Drinks {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    margin: -207px 0px 0px 600px;
+}
+
+.Drinks:hover {
+    filter: drop-shadow(13px 5px 4px #595959);
+}
+
+.Drinks figcaption {
+    font-size: 18px;
+}
+
+.Drinks img {
+    width: 170px;
+    height: 150px;
+}
+
+img{
+    width: 85px;
+    height: 90px;
+}
+
+img:hover {
+    filter: drop-shadow(13px 5px 4px #595959);
+}
+
+.burgers{
+    margin: -164px 0px 30px 225px;
+}
+
+.Toppings {
+    margin: -208px 0px 30px 452px;
+}
+
+.quantity {
+    margin-top: -55px;
+}
+
+.White {
+    margin: -53px 0px 30px 85px;
+}
+
+.Wheat {
+    margin: -55px 0px 0px 85px;
+}
+
+.Single {
+    margin: -60px 0px 30px 85px;
+}
+
+.Double  {
+    margin: -55px 0px 0px 85px;
+}
+
+.cheese {
+    margin: -60px 0px 30px 85px;
+}
+
+.tomato {
+    margin: -55px 0px 0px 85px;
+}
+
+.cucumber {
+    margin: -55px 0px 0px 85px;
+}
+.cucumbers {
+    margin: -165px 0px 0px 195px;
+}
+
+.coleslaw {
+    margin: -55px 0px 0px 85px;
+}
+.coleslaws {
+    margin: 30px 0px 0px 195px;
+}
+
+.onion {
+    margin: -55px 0px 0px 85px;
+}
+
+.bacon {
+    margin: -55px 0px 0px 85px;
+}
+.bacons {
+    margin: -55px 0px 0px 195px;
+}
+
+.pastas img {
+    width: 150px;
+    height: 155px;
+}
+
+.carbownara {
+    margin: -178px 0px 30px 200px;
+}
+
+.pwesto {
+    margin: -208px 0px 30px 410px;
+
+}
+
+.flavor {
+    margin: -50px 0px 30px 80px;
+}
+.flavors {
+    margin: -50px 0px 30px 200px;
+}
+
+.drinks {
+    margin: -50px 0px 30px 80px;
+}
+
+.drinkss {
+    margin: -49px 0px 30px 220px;
+}
+
+.nxt {
+    float: right;
+    margin-top: -20px;
+}
+
+
+#NxtPage {
+    background: linear-gradient(120deg,#fef5dd,#000000);
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    cursor: pointer;
+}

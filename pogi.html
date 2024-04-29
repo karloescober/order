@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+    <h2>Customer Information</h2>
+    <form action="#" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br>
+        
+        <label for="address">Complete Address:</label>
+        <input type="text" id="address" name="address" required><br>
+        
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="description">Description of how to get to the place:</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea>
+        
+        <label for="deliverydatetime">Delivery Date/Time:</label>
+        <input type="datetime-local" id="deliverydatetime" name="deliverydatetime" required><br><br>
+
+        <h2>Order Form</h2>
+        <label for="burgers">Burgers:</label><br>
+        <input type="checkbox" id="single_patty" name="burgers" value="single_patty">
+        <label for="single_patty">Single Patty</label><br>
+        <input type="checkbox" id="double_patty" name="burgers" value="double_patty">
+        <label for="double_patty">Double Patty</label><br>
+        <!-- add more options for burgers -->
+        
+        <label for="bun">Choice of Bun:</label><br>
+        <select id="bun" name="bun">
+            <option value="white_bun">White Bun</option>
+            <option value="wheat_bun">Wheat Bun</option>
+            <!-- add more options for bun -->
+        </select><br>
+        
+        <label for="burger_quantity">Burger Quantity:</label><br>
+        <input type="number" id="burger_quantity" name="burger_quantity" min="1"><br><br>
+        
+        <label for="pasta">Pasta:</label><br>
+        <input type="checkbox" id="carbonara" name="pasta" value="carbonara">
+        <label for="carbonara">Carbonara</label><br>
+        <input type="checkbox" id="pesto" name="pasta" value="pesto">
+        <label for="pesto">Pesto</label><br>
+        <!-- add more options for pasta -->
+        
+        <label for="pasta_quantity">Pasta Quantity:</label><br>
+        <input type="number" id="pasta_quantity" name="pasta_quantity" min="1"><br><br>
+        
+        <label for="fries_size">Fries Size:</label><br>
+        <select id="fries_size" name="fries_size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+        </select><br>
+        
+        <label for="fries_flavor">Fries Flavor:</label><br>
+        <input type="text" id="fries_flavor" name="fries_flavor"><br>
+        
+        <label for="fries_quantity">Fries Quantity:</label><br>
+        <input type="number" id="fries_quantity" name="fries_quantity" min="1"><br><br>
+        
+        <label for="drinks">Drinks:</label><br>
+        <input type="text" id="drinks" name="drinks"><br>
+        
+        <label for="drink_size">Drink Size:</label><br>
+        <select id="drink_size" name="drink_size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+        </select><br>
+        
+        <label for="drink_quantity">Drink Quantity:</label><br>
+        <input type="number" id="drink_quantity" name="drink_quantity" min="1"><br><br>
+        
+        <label for="feedback">Feedback on Ordering Form:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+        
+        <label for="proof">Upload Proof of Payment:</label><br>
+        <input type="file" id="proof" name="proof"><br><br>
+        
+        <label for="delivery_rating">Rate our Delivery Service (0-10):</label><br>
+        <input type="range" id="delivery_rating" name="delivery_rating" min="0" max="10"><br><br>
+        
+        <label for="delivery_option">Delivery or Pick-up:</label><br>
+        <input type="radio" id="delivery" name="delivery_option" value="delivery" checked>
+        <label for="delivery">Delivery</label><br>
+        <input type="radio" id="pickup" name="delivery_option" value="pickup">
+        <label for="pickup">Pick-up</label><br><br>
+        
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</html>
